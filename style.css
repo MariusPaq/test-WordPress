@@ -1,0 +1,48 @@
+/*
+Theme Name: themeTest
+Theme URI:
+Author: Marius PAQUET
+Author URI:
+Description: Thème n-01 test
+Version: 1.0
+*/
+* {box-sizing: border-box;}
+body {background: #2C2C2C; color: white; font-family: Arial, sans-serif; margin: 0;}
+h1,p{color: white;}
+a {color: #3498db; text-decoration: none;}
+a:hover {color: #2980b9; text-decoration: underline;}
+input[type="text"] {border-radius: 4px; border: none; padding: 10px; border: 1px solid #23282d;}
+#s {margin: 0 0 10px 0;}
+button, input[type="submit"] {cursor: pointer; border-radius: 4px; border: none; background: #23282d; color: #3498db; padding: 10px;}
+
+#header{color: white;}
+#header img{width:100%;}
+#header h1{text-transform: uppercase;}
+#header h1,#propagande{position: absolute;top:650px;left:110px;}
+#propagande{top: 700px;}
+
+#artRec,#comRec{color: white;}
+.navigation a{color: red;}
+
+
+#wrap {display: flex; width: 960px; margin: 0 auto;}
+#loop article {margin: 0 0 50px 0; background: #2c2c2c; padding: 20px;color: white;}
+#pagination {text-align: center; margin: 0 0 100px 0;}
+#sidebar {padding: 0 0 0 50px; flex: 0 0 350px;}
+#sidebar .widget {padding: 20px; margin: 0 0 20px 0; background: #fff; border: 1px solid #ccc;}
+#footer {padding: 100px 0; display: flex; background: #23282d; color: #f1f1f1;}
+#footer .widget {flex: 1; padding: 0 40px;}
+
+@media screen and (max-width: 959px) {
+    #wrap {width: 100%; flex-direction: column; padding: 0 20px;}
+    #sidebar {padding: 0;}
+    #footer {flex-direction: column;}
+}
+
+
+.astm-search-menu{position: absolute;left: 18%;top: 960px;width: 500px;}
+.menu-menu-container{margin-left: 42%;}
+#nameMenu{text-align: center;}
+header{margin-bottom: 50px;}
+
+.lineGray{width: 100%;height: 1px;background-color: gray;position: absolute;left: 0px;}
