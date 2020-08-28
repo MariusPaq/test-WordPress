@@ -27,11 +27,12 @@ button, input[type="submit"] {cursor: pointer; border-radius: 4px; border: none;
 
 #wrap {display: flex; width: 960px; margin: 0 auto;}
 #loop article {margin: 0 0 50px 0; background: #2c2c2c; padding: 20px;color: white;}
-#pagination {text-align: center; margin: 0 0 100px 0;}
 #sidebar {padding: 0 0 0 50px; flex: 0 0 350px;}
 #sidebar .widget {padding: 20px; margin: 0 0 20px 0; background: #fff; border: 1px solid #ccc;}
-#footer {padding: 100px 0; display: flex; background: #23282d; color: #f1f1f1;}
+#footer {padding: 100px 0; background: #23282d; color: #f1f1f1;position: absolute;left: 0px;width: 100%;}
+#footer h5,#footer p{text-align: center;}
 #footer .widget {flex: 1; padding: 0 40px;}
+.post-categories {margin-left: 38%;}
 
 @media screen and (max-width: 959px) {
     #wrap {width: 100%; flex-direction: column; padding: 0 20px;}
@@ -46,3 +47,10 @@ button, input[type="submit"] {cursor: pointer; border-radius: 4px; border: none;
 header{margin-bottom: 50px;}
 
 .lineGray{width: 100%;height: 1px;background-color: gray;position: absolute;left: 0px;}
+
+
+.search-title{margin-bottom: 50px;}
+.resultsFind{margin-left: 10%;margin-bottom: 40px;}
+
+#titleSingle,.post__content,.comSection{margin-bottom: 40px;}
+.comSection,#artArchive{padding-top: 40px;}
