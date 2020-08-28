@@ -19,10 +19,10 @@
 
           </div>
           <div class="col">
-            <p id="artRec">ARTICLE RECENTS</p>
+            <h5 id="artRec">ARTICLE RECENTS</h5>
           </div>
           <div class="col">
-            <p id="comRec">COMMENTAIRES RECENTS</p>
+            <h5 id="comRec">COMMENTAIRES RECENTS</h5>
           </div>
         </div>
 
