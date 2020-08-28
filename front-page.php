@@ -32,6 +32,7 @@
                                      <?php the_excerpt(); ?>
 
                                  <?php endif; ?>
+                                 <a href="<?php the_permalink(); ?>">Lire la suite</a>
                              </article>
                              <div class="lineGray"></div>
                          <?php endwhile; ?>
@@ -46,8 +47,5 @@
       </section>
 
   </div>
-
-  <footer id="footer">
-  </footer>
 
 <?php include 'footer.php' ?>
