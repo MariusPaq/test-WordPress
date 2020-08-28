@@ -4,17 +4,20 @@
     <article class="post">
       <?php the_post_thumbnail(); ?>
       <p><?php the_date(); ?> par <?php the_author(); ?></p>
-      <h1><?php the_title(); ?></h1>
+      <h1 id="titleSingle"><?php the_title(); ?></h1>
       <div class="post__content">
         <?php the_content(); ?>
       </div>
       <div class="lineGray"></div>
-      <p><?php comments_number(); ?> pour "<?php the_title(); ?>"</p>
-      <h2><?php comment_author_link(); ?></h2>
-      <p><?php comment_date(); ?> <?php comment_time(); ?></p>
+      <div class="comSection">
+        <p><?php comments_number(); ?> pour "<?php the_title(); ?>"</p>
+        <h2><?php comment_author_link(); ?></h2>
+        <p><?php comment_date(); ?> <?php comment_time(); ?></p>
+      </div>
 
 
-    
+
+
 
 
     </article>
